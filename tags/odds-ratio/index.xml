@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Odds Ratio on StatLab Articles</title>
+    <title>odds ratio on StatLab Articles</title>
     <link>/tags/odds-ratio/</link>
-    <description>Recent content in Odds Ratio on StatLab Articles</description>
+    <description>Recent content in odds ratio on StatLab Articles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Jan 2016 00:00:00 +0000</lastBuildDate>
@@ -27,7 +27,7 @@
       
       <guid>/2015/10/05/fitting-and-interpreting-a-proportional-odds-model/</guid>
       <description>Take a look at the following table. It is a cross tabulation of data taken from the 1991 General Social Survey that relates political party affiliation to political ideology. (Agresti, An Introduction to Categorical Data Analysis, 1996)
-td{padding:0 15px 0 15px;text-align: center;}caption{font-size: 70%}Political Ideology by Party Affiliation, from the 1991 General Social SurveyVery Liberal</description>
+td { padding:0 15px 0 15px; text-align: center; } caption { font-size: 70% }   Political Ideology by Party Affiliation, from the 1991 General Social Survey       Very Liberal</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linear Regression on StatLab Articles</title>
+    <title>linear regression on StatLab Articles</title>
     <link>/tags/linear-regression/</link>
-    <description>Recent content in Linear Regression on StatLab Articles</description>
+    <description>Recent content in linear regression on StatLab Articles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Aug 2018 00:00:00 +0000</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>/2018/08/17/interpreting-log-transformations-in-a-linear-model/</guid>
       <description>Log transformations are often recommended for skewed data, such as monetary measures or certain biological and demographic measures. Log transforming data usually has the effect of spreading out clumps of data and bringing together spread-out data. For example, below is a histogram of the areas of all 50 US states. It is skewed to the right due to Alaska, California, Texas and a few others.
-hist(state.area)After a log transformation, notice the histogram is more or less symmetric.</description>
+hist(state.area) After a log transformation, notice the histogram is more or less symmetric.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ hist(state.area)After a log transformation, notice the histogram is more or les
       
       <guid>/2016/05/20/hierarchical-linear-regression/</guid>
       <description>This post is NOT about Hierarchical Linear Modeling (HLM; multilevel modeling). The hierarchical regression is model comparison of nested regression models.
-When do I want to perform hierarchical regression analysis?Hierarchical regression is a way to show if variables of your interest explain a statistically significant amount of variance in your Dependent Variable (DV) after accounting for all other variables. This is a framework for model comparison rather than a statistical method.</description>
+When do I want to perform hierarchical regression analysis? Hierarchical regression is a way to show if variables of your interest explain a statistically significant amount of variance in your Dependent Variable (DV) after accounting for all other variables. This is a framework for model comparison rather than a statistical method.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ When do I want to perform hierarchical regression analysis?Hierarchical regress
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/2016/04/18/introduction-to-mediation-analysis/</guid>
-      <description>What is mediation?Let’s say previous studies have suggested that higher grades predict higher happiness: X (grades) \(\rightarrow\) Y (happiness). (This research example is made up for illustration purposes. Please don’t consider it a scientific statement.)
+      <description>What is mediation? Let’s say previous studies have suggested that higher grades predict higher happiness: X (grades) \(\rightarrow\) Y (happiness). (This research example is made up for illustration purposes. Please don’t consider it a scientific statement.)
 I think, however, grades are not the real reason that happiness increases. I hypothesize that good grades boost one’s self-esteem and then high self-esteem boosts one’s happiness: X (grades) \(\rightarrow\) M (self-esteem) \(\rightarrow\) Y (happiness).</description>
     </item>
     

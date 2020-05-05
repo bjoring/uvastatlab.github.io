@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Simulation on StatLab Articles</title>
+    <title>simulation on StatLab Articles</title>
     <link>/tags/simulation/</link>
-    <description>Recent content in Simulation on StatLab Articles</description>
+    <description>Recent content in simulation on StatLab Articles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>/2019/08/29/simulating-data-for-count-models/</guid>
       <description>A count model is a linear model where the dependent variable is a count. For example, the number of times a car breaks down, the number of rats in a litter, the number of times a young student gets out of his seat, etc. Counts are either 0 or a postive whole number, which means we need to use special distributions to generate the data.
-The Poisson DistributionThe most common count distribution is the Poisson distribution.</description>
+The Poisson Distribution The most common count distribution is the Poisson distribution.</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@ It turns out the student’s stats professor was Cosma Shalizi of Carnegie Mello
       <description>First off, what is endogeneity, and why would we want to simulate it?
 Endogeneity occurs when a statistical model has an independent variable that is correlated with the error term. The reason we would want to simulate it is to understand what exactly that definition means!
 Let’s first simulate ideal data for simple linear regression using R.
-# independent variablex &amp;lt;- seq(1,5,length.out = 100) # error (uncorrelated with x)set.</description>
+# independent variable x &amp;lt;- seq(1,5,length.out = 100) # error (uncorrelated with x) set.</description>
     </item>
     
   </channel>

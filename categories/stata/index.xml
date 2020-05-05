@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stata on StatLab Articles</title>
@@ -27,7 +27,7 @@
       
       <guid>/2016/10/14/stata-basics-create-recode-and-label-variables/</guid>
       <description>This post demonstrates how to create new variables, recode existing variables and label variables and values of variables. We use variables of the census.dta data that come with Stata as examples.
-generate: create variablesHere we use the generate command to create a new variable representing populations younger than 18 years old. We do so by summing up the two existing variables: poplt5 (population &amp;lt; 5 years old) and pop5_17 (population of 5 to 17 years old).</description>
+generate: create variables Here we use the generate command to create a new variable representing populations younger than 18 years old. We do so by summing up the two existing variables: poplt5 (population &amp;lt; 5 years old) and pop5_17 (population of 5 to 17 years old).</description>
     </item>
     
     <item>
@@ -37,6 +37,15 @@ generate: create variablesHere we use the generate command to create a new vari
       
       <guid>/2016/10/14/stata-basics-data-import-use-and-export/</guid>
       <description>In Stata, the very first step of analyzing a dataset should be opening the dataset in Stata so that it knows which file you are going to work with. Yes, you can simply double click on a Stata data file that ends in .dta to open it, or you can do something fancier to achieve the same goal – like write some codes. Okay, there is at least one more reason than being fancier that makes me prefer to write syntax than clicking through things in Stata – I like to have everything I did recorded so that I can easily reproduce the same work or use the scripts again when working on similar tasks next time.</description>
+    </item>
+    
+    <item>
+      <title>Stata Basics: foreach and forvalues</title>
+      <link>/2016/10/14/stata-basics-foreach-and-forvalues/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/10/14/stata-basics-foreach-and-forvalues/</guid>
+      <description>There are times we need to do some repetitive tasks in the process of data preparation, analysis or presentation, for instance, computing a set of variables in a same manner, rename or create a series of variables, or repetitively recode values of a number of variables. In this post, I show a few of simple example “loops” using Stata commands foreach, local and forvalues to handle some common simple repetitive tasks.</description>
     </item>
     
     <item>
@@ -55,16 +64,7 @@ generate: create variablesHere we use the generate command to create a new vari
       
       <guid>/2016/10/14/stata-basics-subset-data/</guid>
       <description>Sometimes only parts of a dataset mean something to you. In this post, we show you how to subset a dataset in Stata, by variables or by observations. We use the census.dta dataset installed with Stata as the sample data.
-* Load the data&amp;gt; sysuse census.dta(1980 Census data by state)* See the information of the data&amp;gt; describeContains data from /Applications/Stata/ado/base/c/census.dtaobs: 50 1980 Census data by statevars: 13 6 Apr 2014 15:43size: 2,900 ---------------------------------------------------------------------------storage display valuevariable name type format label variable label---------------------------------------------------------------------------state str14 %-14s Statestate2 str2 %-2s Two-letter state abbreviationregion int %-8.</description>
-    </item>
-    
-    <item>
-      <title>Stata Basics: foreach and forvalues</title>
-      <link>/2016/10/14/stata-basics-foreach-and-forvalues/</link>
-      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/2016/10/14/stata-basics-foreach-and-forvalues/</guid>
-      <description>There are times we need to do some repetitive tasks in the process of data preparation, analysis or presentation, for instance, computing a set of variables in a same manner, rename or create a series of variables, or repetitively recode values of a number of variables. In this post, I show a few of simple example “loops” using Stata commands foreach, local and forvalues to handle some common simple repetitive tasks.</description>
+* Load the data &amp;gt; sysuse census.dta (1980 Census data by state) * See the information of the data &amp;gt; describe Contains data from /Applications/Stata/ado/base/c/census.dta obs: 50 1980 Census data by state vars: 13 6 Apr 2014 15:43 size: 2,900 --------------------------------------------------------------------------- storage display value variable name type format label variable label --------------------------------------------------------------------------- state str14 %-14s State state2 str2 %-2s Two-letter state abbreviation region int %-8.</description>
     </item>
     
   </channel>

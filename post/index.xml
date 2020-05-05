@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on StatLab Articles</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Posts on StatLab Articles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting Started with Regular Expressions</title>
+      <link>/2020/03/27/getting-started-with-regular-expressions/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/27/getting-started-with-regular-expressions/</guid>
+      <description>Regular expressions (or regex) are tools for matching patterns in character strings. These can be useful for finding words or letter patterns in text, parsing filenames for specific information, and interpreting input formatted in a variety of ways (e.g., phone numbers). The syntax of regular expressions is generally recognized across operating systems and programming languages. Although this tutorial will use R for examples, most of the same regex could be used in the unix commands or in python.</description>
+    </item>
     
     <item>
       <title>Creating a SQLite database for use with R</title>
@@ -27,7 +36,7 @@
       
       <guid>/2019/08/29/simulating-data-for-count-models/</guid>
       <description>A count model is a linear model where the dependent variable is a count. For example, the number of times a car breaks down, the number of rats in a litter, the number of times a young student gets out of his seat, etc. Counts are either 0 or a postive whole number, which means we need to use special distributions to generate the data.
-The Poisson DistributionThe most common count distribution is the Poisson distribution.</description>
+The Poisson Distribution The most common count distribution is the Poisson distribution.</description>
     </item>
     
     <item>
@@ -64,7 +73,7 @@ The Poisson DistributionThe most common count distribution is the Poisson distr
       
       <guid>/2019/05/03/an-introduction-to-analyzing-twitter-data-with-r/</guid>
       <description>In this article, I will walk you through why a researcher or professional might find data from Twitter useful, explain how to collect the relevant tweets and information from Twitter in R, and then finish by demonstrating a few useful analyses (along with accompanying cleaning) you might perform on your Twitter data.
-Part One: Why Twitter Data?To begin, we should ask: why would someone be interested in using data from Twitter?</description>
+Part One: Why Twitter Data? To begin, we should ask: why would someone be interested in using data from Twitter?</description>
     </item>
     
     <item>
@@ -92,8 +101,8 @@ To begin I’ll point you to this link which has the full code, top to bottom.</
       <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/01/31/analysis-of-ours-to-shape-comments-part-5/</guid>
-      <description>IntroductionIn the penultimate post of this series, we’ll use some unsupervised learning approaches to uncover comment clusters and latent themes among the comments to President Ryan’s Ours to Shape website.
-library(quanteda) # main text packagelibrary(tidyverse) # for dplyr, stringr, piping, etc.library(RColorBrewer) # better colors in graphslibrary(scales) # better breaks and labels in graphslibrary(stm) # structural topic modelsLet’s start with the document-feature matrix we created from the de-duplicated comments.</description>
+      <description>Introduction In the penultimate post of this series, we’ll use some unsupervised learning approaches to uncover comment clusters and latent themes among the comments to President Ryan’s Ours to Shape website.
+library(quanteda) # main text package library(tidyverse) # for dplyr, stringr, piping, etc. library(RColorBrewer) # better colors in graphs library(scales) # better breaks and labels in graphs library(stm) # structural topic models Let’s start with the document-feature matrix we created from the de-duplicated comments.</description>
     </item>
     
     <item>
@@ -102,7 +111,7 @@ library(quanteda) # main text packagelibrary(tidyverse) # for dplyr, stringr, p
       <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/12/19/analysis-of-ours-to-shape-comments-part-4/</guid>
-      <description>IntroductionIn the fourth installment of this series (we’re almost done, I promise), we’ll look at the sentiment – aka positive/negative tone, polarity, affect – of the comments to President Ryan’s Ours to Shape website.
+      <description>Introduction In the fourth installment of this series (we’re almost done, I promise), we’ll look at the sentiment – aka positive/negative tone, polarity, affect – of the comments to President Ryan’s Ours to Shape website.
 We don’t have a pre-labeled set of comments, with negative or positive sentiment already identified, so we can’t use a supervised classification method (and I’m not committed enough to hand code a sample of comments).</description>
     </item>
     
@@ -112,7 +121,7 @@ We don’t have a pre-labeled set of comments, with negative or positive sentime
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/12/18/analysis-of-ours-to-shape-comments-part-3/</guid>
-      <description>IntroductionTo recap, we’re exploring the comments submitted to President Ryan’s Ours to Shape website (as of December 7, 2018).
+      <description>Introduction To recap, we’re exploring the comments submitted to President Ryan’s Ours to Shape website (as of December 7, 2018).
 In the first post we looked at the distribution of comments across Ryan’s three categories – community, discovery, and service – and across the contributors’ primary connection to the university. We extracted features like length and readability of the comments, and compared these across groups. And we explored the context in which key words of interest (to me) were used.</description>
     </item>
     
@@ -122,7 +131,7 @@ In the first post we looked at the distribution of comments across Ryan’s thre
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/12/14/analysis-of-ours-to-shape-comments-part-2/</guid>
-      <description>IntroductionIn the last post, we began exploring the Ours to Shape comments – the distribution across categories and contributors, the length and readability of the comments, and a few key words in context. While I did more exploration of the data than reported, the first post gives a taste of the kind of dive into the data that usefully proceeds analysis.
+      <description>Introduction In the last post, we began exploring the Ours to Shape comments – the distribution across categories and contributors, the length and readability of the comments, and a few key words in context. While I did more exploration of the data than reported, the first post gives a taste of the kind of dive into the data that usefully proceeds analysis.
 In this post, we’ll start digging into word frequencies, relative frequencies by groups, and distinguishing words.</description>
     </item>
     
@@ -132,7 +141,7 @@ In this post, we’ll start digging into word frequencies, relative frequencies 
       <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/12/13/analysis-of-ours-to-shape-comments-part-1/</guid>
-      <description>IntroductionAs part of a series of workshops on quantitative analysis of text this fall, I started examining the comments submitted to President Ryan’s Ours to Shape website. The site invites people to share their ideas and insights for UVA going forward, particularly in the domains of service, discovery, and community. The website was only one venue for providing suggestions and voicing possibilities – President Ryan has hosted community discussions as well – but the website afforded an opportunity for individuals to chime in multiple times and at their convenience, so in theory should represent an especially inclusive collection.</description>
+      <description>Introduction As part of a series of workshops on quantitative analysis of text this fall, I started examining the comments submitted to President Ryan’s Ours to Shape website. The site invites people to share their ideas and insights for UVA going forward, particularly in the domains of service, discovery, and community. The website was only one venue for providing suggestions and voicing possibilities – President Ryan has hosted community discussions as well – but the website afforded an opportunity for individuals to chime in multiple times and at their convenience, so in theory should represent an especially inclusive collection.</description>
     </item>
     
     <item>
@@ -141,8 +150,8 @@ In this post, we’ll start digging into word frequencies, relative frequencies 
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/12/07/how-to-apply-a-graduated-color-symbology-to-a-layer-using-python-for-qgis-3/</guid>
-      <description>I was recently working on a project in QGIS 3 with a member of UVA Health’s Oncologydepartment. This person wanted to take a set of patient data (after identifying info hadbeen removed) and after doing some other stuff, apply a graduated color scheme to theresults, shading them from light to dark based on intensity.
-You can find a sample dataset for this project here:https://github.com/epurpur/PyQGIS-Scripts/blob/master/TestZipCodes.zip
+      <description>I was recently working on a project in QGIS 3 with a member of UVA Health’s Oncology department. This person wanted to take a set of patient data (after identifying info had been removed) and after doing some other stuff, apply a graduated color scheme to the results, shading them from light to dark based on intensity.
+You can find a sample dataset for this project here: https://github.com/epurpur/PyQGIS-Scripts/blob/master/TestZipCodes.zip
 This is a shapefile with a handful of zip codes in Virginia.</description>
     </item>
     
@@ -152,7 +161,7 @@ This is a shapefile with a handful of zip codes in Virginia.</description>
       <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/12/07/how-to-use-the-field-calculator-in-python-for-qgis-3/</guid>
-      <description>Recently, I have taken the dive into python scripting in QGIS. QGIS is a really niceopen source (and free!) alternative to ESRI’s ArcGIS. While QGIS is a little quirky andgenerally not quite as user friendly as ArcGIS, it still provides nearly the samefunctionality. Personally, I’ve become a fan of it an now have even taught a short,1 credit course in the University of Virginia’s Batten School of Public Policy titled:GIS for Public Policy.</description>
+      <description>Recently, I have taken the dive into python scripting in QGIS. QGIS is a really nice open source (and free!) alternative to ESRI’s ArcGIS. While QGIS is a little quirky and generally not quite as user friendly as ArcGIS, it still provides nearly the same functionality. Personally, I’ve become a fan of it an now have even taught a short, 1 credit course in the University of Virginia’s Batten School of Public Policy titled: GIS for Public Policy.</description>
     </item>
     
     <item>
@@ -180,7 +189,7 @@ This is a shapefile with a handful of zip codes in Virginia.</description>
       
       <guid>/2018/08/17/interpreting-log-transformations-in-a-linear-model/</guid>
       <description>Log transformations are often recommended for skewed data, such as monetary measures or certain biological and demographic measures. Log transforming data usually has the effect of spreading out clumps of data and bringing together spread-out data. For example, below is a histogram of the areas of all 50 US states. It is skewed to the right due to Alaska, California, Texas and a few others.
-hist(state.area)After a log transformation, notice the histogram is more or less symmetric.</description>
+hist(state.area) After a log transformation, notice the histogram is more or less symmetric.</description>
     </item>
     
     <item>
@@ -279,7 +288,7 @@ Using the R statistical computing environment, we can use the choose function to
       
       <guid>/2016/10/14/stata-basics-create-recode-and-label-variables/</guid>
       <description>This post demonstrates how to create new variables, recode existing variables and label variables and values of variables. We use variables of the census.dta data that come with Stata as examples.
-generate: create variablesHere we use the generate command to create a new variable representing populations younger than 18 years old. We do so by summing up the two existing variables: poplt5 (population &amp;lt; 5 years old) and pop5_17 (population of 5 to 17 years old).</description>
+generate: create variables Here we use the generate command to create a new variable representing populations younger than 18 years old. We do so by summing up the two existing variables: poplt5 (population &amp;lt; 5 years old) and pop5_17 (population of 5 to 17 years old).</description>
     </item>
     
     <item>
@@ -289,6 +298,15 @@ generate: create variablesHere we use the generate command to create a new vari
       
       <guid>/2016/10/14/stata-basics-data-import-use-and-export/</guid>
       <description>In Stata, the very first step of analyzing a dataset should be opening the dataset in Stata so that it knows which file you are going to work with. Yes, you can simply double click on a Stata data file that ends in .dta to open it, or you can do something fancier to achieve the same goal – like write some codes. Okay, there is at least one more reason than being fancier that makes me prefer to write syntax than clicking through things in Stata – I like to have everything I did recorded so that I can easily reproduce the same work or use the scripts again when working on similar tasks next time.</description>
+    </item>
+    
+    <item>
+      <title>Stata Basics: foreach and forvalues</title>
+      <link>/2016/10/14/stata-basics-foreach-and-forvalues/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/10/14/stata-basics-foreach-and-forvalues/</guid>
+      <description>There are times we need to do some repetitive tasks in the process of data preparation, analysis or presentation, for instance, computing a set of variables in a same manner, rename or create a series of variables, or repetitively recode values of a number of variables. In this post, I show a few of simple example “loops” using Stata commands foreach, local and forvalues to handle some common simple repetitive tasks.</description>
     </item>
     
     <item>
@@ -307,16 +325,7 @@ generate: create variablesHere we use the generate command to create a new vari
       
       <guid>/2016/10/14/stata-basics-subset-data/</guid>
       <description>Sometimes only parts of a dataset mean something to you. In this post, we show you how to subset a dataset in Stata, by variables or by observations. We use the census.dta dataset installed with Stata as the sample data.
-* Load the data&amp;gt; sysuse census.dta(1980 Census data by state)* See the information of the data&amp;gt; describeContains data from /Applications/Stata/ado/base/c/census.dtaobs: 50 1980 Census data by statevars: 13 6 Apr 2014 15:43size: 2,900 ---------------------------------------------------------------------------storage display valuevariable name type format label variable label---------------------------------------------------------------------------state str14 %-14s Statestate2 str2 %-2s Two-letter state abbreviationregion int %-8.</description>
-    </item>
-    
-    <item>
-      <title>Stata Basics: foreach and forvalues</title>
-      <link>/2016/10/14/stata-basics-foreach-and-forvalues/</link>
-      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/2016/10/14/stata-basics-foreach-and-forvalues/</guid>
-      <description>There are times we need to do some repetitive tasks in the process of data preparation, analysis or presentation, for instance, computing a set of variables in a same manner, rename or create a series of variables, or repetitively recode values of a number of variables. In this post, I show a few of simple example “loops” using Stata commands foreach, local and forvalues to handle some common simple repetitive tasks.</description>
+* Load the data &amp;gt; sysuse census.dta (1980 Census data by state) * See the information of the data &amp;gt; describe Contains data from /Applications/Stata/ado/base/c/census.dta obs: 50 1980 Census data by state vars: 13 6 Apr 2014 15:43 size: 2,900 --------------------------------------------------------------------------- storage display value variable name type format label variable label --------------------------------------------------------------------------- state str14 %-14s State state2 str2 %-2s Two-letter state abbreviation region int %-8.</description>
     </item>
     
     <item>
@@ -404,7 +413,7 @@ The following data come with the AER package. It is a sample of 4,406 individual
       
       <guid>/2016/05/20/hierarchical-linear-regression/</guid>
       <description>This post is NOT about Hierarchical Linear Modeling (HLM; multilevel modeling). The hierarchical regression is model comparison of nested regression models.
-When do I want to perform hierarchical regression analysis?Hierarchical regression is a way to show if variables of your interest explain a statistically significant amount of variance in your Dependent Variable (DV) after accounting for all other variables. This is a framework for model comparison rather than a statistical method.</description>
+When do I want to perform hierarchical regression analysis? Hierarchical regression is a way to show if variables of your interest explain a statistically significant amount of variance in your Dependent Variable (DV) after accounting for all other variables. This is a framework for model comparison rather than a statistical method.</description>
     </item>
     
     <item>
@@ -431,7 +440,7 @@ When do I want to perform hierarchical regression analysis?Hierarchical regress
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/2016/04/18/introduction-to-mediation-analysis/</guid>
-      <description>What is mediation?Let’s say previous studies have suggested that higher grades predict higher happiness: X (grades) \(\rightarrow\) Y (happiness). (This research example is made up for illustration purposes. Please don’t consider it a scientific statement.)
+      <description>What is mediation? Let’s say previous studies have suggested that higher grades predict higher happiness: X (grades) \(\rightarrow\) Y (happiness). (This research example is made up for illustration purposes. Please don’t consider it a scientific statement.)
 I think, however, grades are not the real reason that happiness increases. I hypothesize that good grades boost one’s self-esteem and then high self-esteem boosts one’s happiness: X (grades) \(\rightarrow\) M (self-esteem) \(\rightarrow\) Y (happiness).</description>
     </item>
     
@@ -459,7 +468,7 @@ I think, however, grades are not the real reason that happiness increases. I hyp
       <pubDate>Mon, 16 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>/2015/11/16/using-and-interpreting-cronbach-s-alpha/</guid>
-      <description>I. What is Cronbach’s alpha?Cronbach’s alpha is a measure used to assess the reliability, or internal consistency, of a set of scale or test items. In other words, the reliability of any given measurement refers to the extent to which it is a consistent measure of a concept, and Cronbach’s alpha is one way of measuring the strength of that consistency.
+      <description>I. What is Cronbach’s alpha? Cronbach’s alpha is a measure used to assess the reliability, or internal consistency, of a set of scale or test items. In other words, the reliability of any given measurement refers to the extent to which it is a consistent measure of a concept, and Cronbach’s alpha is one way of measuring the strength of that consistency.
 Cronbach’s alpha is computed by correlating the score for each scale item with the total score for each observation (usually individual survey respondents or test takers), and then comparing that to the variance for all individual item scores:</description>
     </item>
     
@@ -480,7 +489,7 @@ It turns out the student’s stats professor was Cosma Shalizi of Carnegie Mello
       
       <guid>/2015/10/05/fitting-and-interpreting-a-proportional-odds-model/</guid>
       <description>Take a look at the following table. It is a cross tabulation of data taken from the 1991 General Social Survey that relates political party affiliation to political ideology. (Agresti, An Introduction to Categorical Data Analysis, 1996)
-td{padding:0 15px 0 15px;text-align: center;}caption{font-size: 70%}Political Ideology by Party Affiliation, from the 1991 General Social SurveyVery Liberal</description>
+td { padding:0 15px 0 15px; text-align: center; } caption { font-size: 70% }   Political Ideology by Party Affiliation, from the 1991 General Social Survey       Very Liberal</description>
     </item>
     
     <item>
@@ -520,7 +529,7 @@ We can check if a model works well for data in many different ways. We pay great
       <description>First off, what is endogeneity, and why would we want to simulate it?
 Endogeneity occurs when a statistical model has an independent variable that is correlated with the error term. The reason we would want to simulate it is to understand what exactly that definition means!
 Let’s first simulate ideal data for simple linear regression using R.
-# independent variablex &amp;lt;- seq(1,5,length.out = 100) # error (uncorrelated with x)set.</description>
+# independent variable x &amp;lt;- seq(1,5,length.out = 100) # error (uncorrelated with x) set.</description>
     </item>
     
     <item>

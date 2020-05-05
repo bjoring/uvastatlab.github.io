@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mediation on StatLab Articles</title>
+    <title>mediation on StatLab Articles</title>
     <link>/tags/mediation/</link>
-    <description>Recent content in Mediation on StatLab Articles</description>
+    <description>Recent content in mediation on StatLab Articles</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Mar 2018 00:00:00 +0000</lastBuildDate>
@@ -27,7 +27,7 @@ The basic idea is that a mediator may depend on another variable called a “mod
       <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/2016/04/18/introduction-to-mediation-analysis/</guid>
-      <description>What is mediation?Let’s say previous studies have suggested that higher grades predict higher happiness: X (grades) \(\rightarrow\) Y (happiness). (This research example is made up for illustration purposes. Please don’t consider it a scientific statement.)
+      <description>What is mediation? Let’s say previous studies have suggested that higher grades predict higher happiness: X (grades) \(\rightarrow\) Y (happiness). (This research example is made up for illustration purposes. Please don’t consider it a scientific statement.)
 I think, however, grades are not the real reason that happiness increases. I hypothesize that good grades boost one’s self-esteem and then high self-esteem boosts one’s happiness: X (grades) \(\rightarrow\) M (self-esteem) \(\rightarrow\) Y (happiness).</description>
     </item>
     
